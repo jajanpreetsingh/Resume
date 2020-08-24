@@ -1,7 +1,7 @@
 body { padding: 0; margin: 0 }
-#unity-container { width: 100%; height: 100%; position: absolute }
-#unity-container.unity-desktop { width: 100%; height: 100%; left: 0%; top: 0%; transform: translate(0%, 0%) }
-#unity-container.unity-mobile { width: 100%; height: 100% }
+#unity-container {  }
+#unity-container.unity-desktop {  }
+#unity-container.unity-mobile {  }
 #unity-canvas { background: #231F20 }
 .unity-mobile #unity-canvas { width: 100%; height: 100% }
 #unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
