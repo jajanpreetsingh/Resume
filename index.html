@@ -45,8 +45,11 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       } else {
-        canvas.style.width = "1920px";
-        canvas.style.height = "1080px";
+	  
+	  alert("w:"+ window.innerWidth+"   h:"+window.innerHeight);
+	  
+        canvas.style.width = "1280px";
+        canvas.style.height = "720px";
       }
       loadingBar.style.display = "block";
 
