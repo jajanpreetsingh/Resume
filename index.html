@@ -45,8 +45,8 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       } else {
-        canvas.style.width = document.body.clientWidth;
-        canvas.style.height = document.body.clientHeight;
+        canvas.style.width = window.screen.availWidth;
+        canvas.style.height = window.screen.availtHeight;
       }
       loadingBar.style.display = "block";
 
