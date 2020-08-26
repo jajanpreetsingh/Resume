@@ -23,8 +23,6 @@
       </div>
     </div>
     <script>
-	
-	  var uInstance = null;
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Resume.loader.js";
       var config = {
@@ -58,7 +56,6 @@
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
-		  uInstance = unityInstance;
           loadingBar.style.display = "none";
           fullscreenButton.onclick = () => {
             unityInstance.SetFullscreen(1);
@@ -68,7 +65,6 @@
         });
       };
       document.body.appendChild(script);
-	  uInstance.SetFullscreen(1);
     </script>
   </body>
 </html>
